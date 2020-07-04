@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RZnCjCO7Vh61eEq/wekG8SYvg5WKVXfqEmSJ1PUCKZSdkS2VwpNsC3cDk46bEvgEOr1aQbjaNVt+gq+sB8xTEQ==",
+  "dgSpecHash": "dJgGj6C9RDNLiYLFp5Sx2bGvO7cwvb19VaEwmk3miTAvsp7vN9nApGX5guvyzSUqSh2bg/8JPjdCEw3+a8JZjQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\38066\\Documents\\GitHub\\TechStackTestTask\\Techstack.ASP.Core&API&Angular7\\WebAPI\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\38066\\source\\repos\\TestTask\\Techstack.ASP.Core&API&Angular7\\WebAPI\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\38066\\.nuget\\packages\\microsoft.entityframeworkcore\\2.2.0\\microsoft.entityframeworkcore.2.2.0.nupkg.sha512",
     "C:\\Users\\38066\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\2.2.0\\microsoft.entityframeworkcore.abstractions.2.2.0.nupkg.sha512",

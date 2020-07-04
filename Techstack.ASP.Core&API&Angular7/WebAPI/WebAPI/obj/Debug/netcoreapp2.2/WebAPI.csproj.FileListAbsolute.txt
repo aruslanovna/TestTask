@@ -1,6 +1,0 @@
-C:\Users\38066\Documents\GitHub\TechStackTestTask\Techstack.ASP.Core&API&Angular7\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.csprojAssemblyReference.cache
-C:\Users\38066\Documents\GitHub\TechStackTestTask\Techstack.ASP.Core&API&Angular7\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.AssemblyInfoInputs.cache
-C:\Users\38066\Documents\GitHub\TechStackTestTask\Techstack.ASP.Core&API&Angular7\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.AssemblyInfo.cs
-C:\Users\38066\Documents\GitHub\TechStackTestTask\Techstack.ASP.Core&API&Angular7\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.csproj.CoreCompileInputs.cache
-C:\Users\38066\Documents\GitHub\TechStackTestTask\Techstack.ASP.Core&API&Angular7\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.RazorAssemblyInfo.cache
-C:\Users\38066\Documents\GitHub\TechStackTestTask\Techstack.ASP.Core&API&Angular7\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.RazorAssemblyInfo.cs

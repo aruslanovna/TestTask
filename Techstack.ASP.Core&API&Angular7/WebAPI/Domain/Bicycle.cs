@@ -1,15 +1,17 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace Domain
 {
     public class Bicycle
     {
+        [Key]
         public int Id { get; set; }
         public string Name { get; set; }
-        public Type Type { get; set; }
+        public string Type { get; set; }
         public int Price { get; set; }
 
-        public Status Status { get; set; }
+        public string Status { get; set; }
 
     }
 

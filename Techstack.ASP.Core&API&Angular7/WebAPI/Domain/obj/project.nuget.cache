@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0ju5A277+wOIHX8XOO/jQQ0NgNQVINctcyMVB6G+BzhJjCEayplo6CqiXkrtFtcKos+asswW8MR275syS6sc9g==",
+  "dgSpecHash": "tLCjDz93uMvaRsmWP1MCvlmuWtQJSOASekVxe7XYLMxsw57Rqw1O1LIXw7xKmD3FlaRZzGQdOn0kdNf5Rek/5g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\38066\\Documents\\GitHub\\TechStackTestTask\\Techstack.ASP.Core&API&Angular7\\WebAPI\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\38066\\source\\repos\\TestTask\\Techstack.ASP.Core&API&Angular7\\WebAPI\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\38066\\.nuget\\packages\\microsoft.netcore.app\\2.2.0\\microsoft.netcore.app.2.2.0.nupkg.sha512",
     "C:\\Users\\38066\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.2.0\\microsoft.netcore.dotnetapphost.2.2.0.nupkg.sha512",
