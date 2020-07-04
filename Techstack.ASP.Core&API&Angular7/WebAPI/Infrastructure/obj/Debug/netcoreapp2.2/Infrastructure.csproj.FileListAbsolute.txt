@@ -1,0 +1,4 @@
+C:\Users\38066\Documents\GitHub\TechStackTestTask\Techstack.ASP.Core&API&Angular7\WebAPI\Infrastructure\obj\Debug\netcoreapp2.2\Infrastructure.csprojAssemblyReference.cache
+C:\Users\38066\Documents\GitHub\TechStackTestTask\Techstack.ASP.Core&API&Angular7\WebAPI\Infrastructure\obj\Debug\netcoreapp2.2\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\38066\Documents\GitHub\TechStackTestTask\Techstack.ASP.Core&API&Angular7\WebAPI\Infrastructure\obj\Debug\netcoreapp2.2\Infrastructure.AssemblyInfo.cs
+C:\Users\38066\Documents\GitHub\TechStackTestTask\Techstack.ASP.Core&API&Angular7\WebAPI\Infrastructure\obj\Debug\netcoreapp2.2\Infrastructure.csproj.CoreCompileInputs.cache
