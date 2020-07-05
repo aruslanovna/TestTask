@@ -1,0 +1,35 @@
+
+<div class="header-block">
+  
+  <img class="smile smile-star" src="../../assets/Resources/icons8-star-struck-96.png" />   <h3>Your rent (Total: {{ fullName() }} )</h3>
+</div>
+
+<table class="bikeList table table-hover" >
+  <tr class="row row-rent r" *ngFor="let pd of service.list; let i = index">
+    
+        
+     
+    <div class="column" >
+   
+      <p (click)="populateForm(pd)">{{pd.Name}}</p><p>/</p>
+      <p (click)="populateForm(pd)">{{pd.Price}}</p><p>/</p>
+      <p (click)="populateForm(pd)">{{pd.Type}}</p>
+    </div>
+    
+      <div class="column smaller_column"><form #form="ngForm" autocomplete="off" (submit)="onSubmit(form)">
+      <input type="hidden" name="Id" [value]="pd.Id"> 
+        
+        <button class="btn cancel" (click)="onDelete(pd.Id)">Delete</button>
+        
+      
+      </form></div>
+   
+    
+  </tr>
+  
+  </table>
+  
+
+  
+    
+

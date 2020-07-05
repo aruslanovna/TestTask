@@ -54,7 +54,7 @@ export class BicycleDetailComponent implements OnInit {
         debugger;
         
         this.resetForm(form);
-        this.toastr.success('Submitted successfully', 'Bicycle Detail Register');
+        this.toastr.success(' Register successfully', 'Bicycle');
         this.service.refreshList();
       },
       err => {

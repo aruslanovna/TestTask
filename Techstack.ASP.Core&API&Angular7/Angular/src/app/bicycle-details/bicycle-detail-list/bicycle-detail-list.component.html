@@ -8,19 +8,41 @@
 
 <table class="bikeList table table-hover" >
 <tr class="row row-rent r" *ngFor="let pd of service.list; let i = index">
+  
+      
+   
   <div class="column" >
  
     <p (click)="populateForm(pd)">{{pd.Name}}</p><p>/</p>
     <p (click)="populateForm(pd)">{{pd.Price}}</p><p>/</p>
     <p (click)="populateForm(pd)">{{pd.Type}}</p>
   </div>
-    <div class="column smaller_column">
+  
+    <div class="column smaller_column"><form #form="ngForm" autocomplete="off" (submit)="onSubmit(form)">
+    <input type="hidden" name="Id" [value]="pd.Id"> 
       
       <button class="btn cancel" (click)="onDelete(pd.Id)">Delete</button>
-      <button class="btn rent" (click)="onDelete(pd.Id)">Rent</button>
-    </div>
+      
+      <button class="btn rent" type="submit" [disabled]="form.invalid">Rent</button>
+    </form></div>
  
-
+  
 </tr>
 
 </table>
+
+
+
+
+
+
+ 
+
+
+
+
+  
+
+  
+
+

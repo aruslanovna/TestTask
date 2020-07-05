@@ -1,27 +1,42 @@
-import { BicycleDetail } from '../../shared/bicycle-detail.model';
 import { BicycleDetailService } from '../../shared/bicycle-detail.service';
 import { Component, OnInit } from '@angular/core';
-import { ToastrService } from 'ngx-toastr';
-
 import { NgForm } from '@angular/forms';
+import { ToastrService } from 'ngx-toastr';
+import { BicycleDetail } from '../../shared/bicycle-detail.model';
+import { getInterpolationArgsLength } from '@angular/compiler/src/render3/view/util';
 
 @Component({
-  selector: 'app-bicycle-detail-list',
-  templateUrl: './bicycle-detail-list.component.html',
+  selector: 'app-bicycle-rented-list',
+  templateUrl: './bicycle-rented-list.component.html',
   styles: []
 })
-export class BicycleDetailListComponent implements OnInit {
-  
+
+export class BicycleRentedComponent implements OnInit {
+
   constructor(public service: BicycleDetailService,
     private toastr: ToastrService) { }
 
   ngOnInit() {
     this.service.refreshList();
+    this.fullName();
   }
 
   populateForm(pd: BicycleDetail) {
     this.service.formData = Object.assign({}, pd);
   }
+
+fullName(){
+  
+
+    let sum = 0;
+    for(let i = 0; i < this.service.list.length; i++) {
+      sum += this.service.list[i].Price;
+    }
+    return sum;
+  
+
+}
+
 
   onDelete(Id) {
     if (confirm('Are you sure to delete this record ?')) {
@@ -29,7 +44,7 @@ export class BicycleDetailListComponent implements OnInit {
         .subscribe(res => {
           debugger;
           this.service.refreshList();
-          this.toastr.warning('Deleted successfully', 'Bicycle Register');
+          this.toastr.warning('Deleted successfully', 'Bicycle ');
         },
           err => {
             debugger;
@@ -47,7 +62,7 @@ export class BicycleDetailListComponent implements OnInit {
   onRent(form: NgForm) {
     if (confirm('Are you sure you want to rent this bike ?')) {
      
-      form.controls['Status'].setValue("rented")
+      form.controls['Status'].setValue("Rented")
       this.service.rentBicycleDetail()
         .subscribe(res => {
           debugger;
@@ -59,5 +74,8 @@ export class BicycleDetailListComponent implements OnInit {
             console.log(err);
           })
     }
+   
+    
   }
+  
 }

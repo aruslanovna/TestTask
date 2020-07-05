@@ -26,9 +26,11 @@ export class BicycleDetailService {
   putBicycleDetail() {
     return this.http.put(this.rootURL + '/Bicycle/'+ this.formData.Id, this.formData);
   }
-  rentBicycleDetail(formData) {
-    formData.controls['Status'].setValue("rented")
-    return this.http.put(this.rootURL + '/Bicycle/'+ formData.Id, formData);
+  rentBicycleDetail() {
+   
+    this.formData.Status = "Rented";
+    
+    return this.http.put(this.rootURL + '/Bicycle/'+ this.formData.Id, this.formData);
   }
   deleteBicycleDetail(id) {
     return this.http.delete(this.rootURL + '/Bicycle/'+ id);
@@ -41,14 +43,17 @@ export class BicycleDetailService {
   }
 
 
-
+  getBicycle(Id){
+    return  this.http.get(this.rootURL + '/Bicycle/'+Id)
+   ;
+   }
 
   getProjects(){
     return  this.http.get(this.rootURL + '/Bicycle')
     .toPromise()
     .then(res => this.list = res as BicycleDetail[]);
-    
-
-
   }
+
+    
+  
 }
